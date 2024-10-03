@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:4500": "next dev -p 4500"
   },
   "dependencies": {
     "next": "13.1.1",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1"
+    "eslint-config-next": "13.1.1",
+    "tailwindcss": "^3.4.13"
   }
 }

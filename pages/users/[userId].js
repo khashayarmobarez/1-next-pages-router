@@ -4,11 +4,13 @@ const User = () => {
 
     // you can access alot of data using Router
     const router = useRouter()
-    const { id } = router.query.userId
+    const { userId } = router.query
+
+    console.log(router)
 
     return (
         <div>
-            user {id}
+            user {userId}
         </div>
     );
 };
